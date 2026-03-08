@@ -43,7 +43,7 @@ module.exports = {
         langs: {
                 bn: {
                         noInput: "বলো বেবি😘",
-                        teachUsage: "❌ | সঠিক নিয়ম: teach [প্রশ্ন] - [উত্তর]",
+                        teachUsage: "❌ | সঠিক নিয়ম: teach [ I Love You] - [I Love You 2 Bby 🥹]",
                         teachSuccess: "✅ উত্তর যুক্ত হয়েছে: \"%1\" -> \"%2\"\n• টিচার: %3\n• মোট ডাটা: %4",
                         removeUsage: "❌ | সঠিক নিয়ম: remove [প্রশ্ন] - [ইনডেক্স]",
                         editUsage: "❌ | সঠিক নিয়ম: edit [প্রশ্ন] - [নতুন উত্তর]",
@@ -52,7 +52,7 @@ module.exports = {
                 },
                 en: {
                         noInput: "Bolo baby😘",
-                        teachUsage: "❌ | Format: teach [question] - [answer]",
+                        teachUsage: "❌ | Format: teach [Tumer Nam Ki] - [Nam Deya Ki Korbi Luccha 😏🙏]",
                         teachSuccess: "✅ Reply added: \"%1\" -> \"%2\"\n• Teacher: %3\n• Total: %4",
                         removeUsage: "❌ | Format: remove [question] - [index]",
                         editUsage: "❌ | Format: edit [question] - [new answer]",
@@ -168,9 +168,11 @@ module.exports = {
                         api.setMessageReaction("🪽", event.messageID, () => {}, true);
                         const randomReplies = [
                                 "babu khuda lagse🥺",
-                                "Hop beda😾,Boss বল boss😼",
-                                "আমাকে ডাকলে ,আমি কিন্তূ কিস করে দেবো😘 ",                      
-                                "naw amr boss k message daw m.me/mahmud0x7",
+                                "অর্থ ছাড়া পুরুষ তুমি ব্যর্থ...!💵",
+                                "🌺⎯͢⎯⃝🫵উ্ঁঁপ্ঁরে্ঁ আ্ঁকা্ঁশ্ঁ নি্ঁচে্ঁ ঘা্ঁস্ঁ   আ্ঁল্‌গা্ঁ পি্ঁরি্ঁত্ঁ এ্ঁ  খা্ঁই্ঁবা্ঁ বাঁশ্ঁ, ⎯͢⎯⃝🐸🙂💔 ",                      
+                                "যে যুগে মরা বাড়িতে গেলে ও প্রেম
+হয়, ওই যুগে আইসা ও আমি
+Singel.!🐸🙂",
                                 "গোলাপ ফুল এর জায়গায় আমি দিলাম তোমায় মেসেজ",
                                 "বলো কি বলবা, সবার সামনে বলবা নাকি?🤭🤏",
                                 "𝗜 𝗹𝗼𝘃𝗲 𝘆𝗼𝐮__😘😘",
